@@ -80,12 +80,9 @@ Deploying on CF requires a few additional steps, follow along this guide:
 1. Install the official CloudFlare Wrangler CLI using the command `npm i -g wrangler` in your global terminal. Note that in order to use Wrangler CLI, we need to get "Account ID" and "API Token Key", both of which we will discuss in next steps. 
 2. Go to [Cloudflare official site](https://www.cloudflare.com), sign-up, verify your email and login to the dashboard. 
 3. Now, we have to create a "CloudFlare Pages Site". Go back to dashboard home, find "Workers & Pages" option and click to open it, then click on "Create" button to add a new pages site. 
-4. Within the new site, you'll find "Account ID" in the right section. Note it for later use. Also, you'll find "Manage API Token" link, click on it to get into API token key generation dashboard. If you can't find it, visit [this direct link](https://dash.cloudflare.com/profile/api-tokens) instead for managing API tokens.
-5. When creating a new token, only add one permission to the token: Account > Cloudflare Pages > Edit.
-6. Note the token key for later use. 
-7. Now, go back to project directory terminal and run `wrangler login` command. This will open browser for CF authentication. After that, terminal will display a success notification. 
-8. Next, we will deploy the static site to CF pages. Run the command `wrangler pages deploy .` and give a name of project (any random name). This will deploy the static site to CF pages. (ref. screenshot - https://app.screencast.com/ouWi3xj2DOBG7)
-9. Now, you can navigate to the site and check it out! 
+4. Now, go back to project directory terminal and run `wrangler login` command. This will open browser for CF authentication. After that, terminal will display a success notification. 
+5. Next, we will deploy the static site to CF pages. Run the command `wrangler pages deploy .` and give a name of project (any random name). This will deploy the static site to CF pages. (ref. screenshot - https://app.screencast.com/ouWi3xj2DOBG7)
+6. Now, you can navigate to the site and check it out! 
 
 ### Notes: 
 1. CF is an advanced platform, and apart from hosting it offers a variety of other services including domain registration, and much more. Feel free to check out the documentation in depth.
