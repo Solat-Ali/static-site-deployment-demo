@@ -4,11 +4,6 @@
     --font-size-base: 16px;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: clamp(2rem, 1.4681rem + 2.2695vw, 3rem);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -19,4 +14,10 @@ body {
     background-position: center center;
     color: var(--text-color);
     font-family: 'Rubik', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: clamp(2rem, 1.4681rem + 2.2695vw, 3rem);
 }
