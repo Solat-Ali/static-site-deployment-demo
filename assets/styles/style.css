@@ -1,0 +1,60 @@
+
+/* Launch Section */
+.launch {
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.launch__title {
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+.launch__subtitle {
+    font-size: clamp(1.25rem, 0.8511rem + 1.7021vw, 2rem);
+    margin-top: 12px;
+    font-weight: 300;
+}
+
+.launch__cta {
+    margin-top: 15vh;
+}
+
+.launch__cta button {
+    border: 1px solid var(--text-color);
+    border-radius: 24px;
+    padding: 1rem 2.5rem;
+    background: transparent;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: clamp(0.875rem, 0.742rem + 0.5674vw, 1.125rem);
+}
+
+.launch__cta button:hover,
+.launch__cta button:active,
+.launch__cta button:focus {
+    background: white;
+    transition: 0.2s linear;
+    cursor: pointer;
+    color: var(--accent-text-color);
+}
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 50px;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+
+    a {
+        color: var(--text-color);
+    }
+}
+
+.footer__subtitle {
+    margin-top: 6px;
+}
