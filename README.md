@@ -5,6 +5,10 @@ This is a simple repository created to document open source deployments on multi
 - Picking the right open source platform for deployment is completely your choice. This repository just demonstrates & explains some examples!
 - Make sure that whichever platform you choose, you are aware of it's pricing plan. All of the options listed below have a free-tier, however please refer to the pricing page link given against each option. 
 
+![image](https://github.com/Solat-Ali/static-site-deployment-demo/assets/52134925/c5308f1c-e3b1-4124-82f6-00bd53fb57c9)
+![image](https://github.com/Solat-Ali/static-site-deployment-demo/assets/52134925/62f4bb0a-ec2b-40f2-8c47-672449c3ec77)
+![image](https://github.com/Solat-Ali/static-site-deployment-demo/assets/52134925/0fbc832a-f27f-4d02-881e-dededbb7a2da)
+
 ## 1. Surge
 Here's how you can deploy a website on Surge: 
 
